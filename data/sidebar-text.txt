@@ -1,5 +1,5 @@
 <p class="sg-text">Let your friends know you're helping students, and helping the world become a better place
-<br/>
-At the end of each week, we will calculate the amount of answers we get and donate 1 peso per answer</p>
+</p>
+<p class="sg-text">At the end of each week, we will calculate the amount of answers we get and donate 1 peso per answer</p>
 </p>
 
