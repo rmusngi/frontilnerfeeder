@@ -15,7 +15,8 @@ button:focus {
 }
 .jumbotron {
     background: url('header.jpg');
-    background-size: cover;
+    background-color: #D9F0FF;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
     height: 60vh;
@@ -275,7 +276,9 @@ button:focus {
         margin-top: -20px;
     }
     .jumbotron {
-        height: 60vh;
+        height: 40vh;
+        background-size: cover;
+
     }
 
     .question-individual {
@@ -296,7 +299,7 @@ button:focus {
     }
 
     .jumbotron {
-        height: 50vh;
+        height: 30vh;
     }
 
     .intro {
@@ -337,6 +340,9 @@ button:focus {
 
 /*Tablet - 990px*/
 @media (max-width: 990px) {
+    .jumbotron {
+        height: 20vh;
+    }
     .intro {
         margin-top: -10px;
     }
@@ -428,6 +434,9 @@ button:focus {
     body, html{
         overflow-x: hidden!important;
     }
+    .jumbotron {
+        height: 10vh;
+    }
     .intro{
         margin-left: -3px;
         margin-top: -5px;
@@ -449,6 +458,9 @@ button:focus {
     .intro {
         font-size: 30px!important;
         
+    }
+    .jumbotron {
+        height: 10vh;
     }
     .question-individual {
         width: 70vw;
