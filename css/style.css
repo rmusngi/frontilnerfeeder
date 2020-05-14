@@ -278,6 +278,7 @@ button:focus {
     .jumbotron {
         height: 40vh;
         background-size: cover;
+        width: 100%;
 
     }
 
@@ -299,7 +300,9 @@ button:focus {
     }
 
     .jumbotron {
-        height: 30vh;
+        height: 25vh;
+        width: 100%;
+
     }
 
     .intro {
@@ -342,6 +345,7 @@ button:focus {
 @media (max-width: 990px) {
     .jumbotron {
         height: 20vh;
+        background-position: -50px center;
     }
     .intro {
         margin-top: -10px;
@@ -409,7 +413,13 @@ button:focus {
 }
 
 /*Mobile- 760px*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .jumbotron {
+        background: url('cv2.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .intro {
         margin-top: -30px;
     }
@@ -435,7 +445,11 @@ button:focus {
         overflow-x: hidden!important;
     }
     .jumbotron {
-        height: 10vh;
+        background: url('cv2.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40vh;
     }
     .intro{
         margin-left: -3px;
@@ -460,7 +474,11 @@ button:focus {
         
     }
     .jumbotron {
-        height: 10vh;
+        background: url('cv2.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 40vh;
     }
     .question-individual {
         width: 70vw;
